@@ -1,0 +1,12 @@
+HEALTH AND FITNESS REPORT
+
+Name: Meera
+BMI: 22.04
+BMI Category: Normal
+
+Activity Status: Good
+Water Intake Status: Good
+Sleep Status: Healthy
+
+Overall Fitness Status: HEALTHY
+Message: Continue maintaining the same routine.
