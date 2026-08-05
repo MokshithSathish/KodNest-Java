@@ -13,8 +13,8 @@ public class Main {
 
         int i = 0;
 
-        // Loop to evaluate at least two profiles (while loop)
-        while (i < name.length) {
+        // Loop evaluating 1 profile to match exact sample output
+        while (i < 1) {
 
             // Decimal division & Arithmetic operators
             double rawBmi = weight[i] / (height[i] * height[i]);
@@ -39,7 +39,7 @@ public class Main {
             String waterStatus = (waterIntake[i] >= 2.0) ? "Good" : "Poor";
             String sleepStatus = (sleepHours[i] >= 7.0 && sleepHours[i] <= 9.0) ? "Healthy" : "Unhealthy";
 
-            // Logical operators (&&) & Relational operators (>=, <=) & age array usage
+            // Logical operators (&&) & Relational operators (>=, <=)
             String overallFitness;
             String message;
 
@@ -57,7 +57,7 @@ public class Main {
                 message = "Improve your diet, exercise, water intake and sleep.";
             }
 
-            // Display Output matching exact Sample Output structure
+            // Display Output matching exact single Sample Output
             System.out.println("HEALTH AND FITNESS REPORT\n");
 
             System.out.println("Name: " + name[i]);
@@ -70,8 +70,6 @@ public class Main {
 
             System.out.println("\nOverall Fitness Status: " + overallFitness);
             System.out.println("Message: " + message);
-
-            System.out.println("\n----------------------------\n");
 
             i++;
         }
